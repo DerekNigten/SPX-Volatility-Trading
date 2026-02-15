@@ -1,0 +1,5 @@
+*.parquet
+*.csv
+*.txt
+data/
+.ipynb_checkpoints/
