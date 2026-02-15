@@ -76,7 +76,7 @@ Since PC1 captures the overall volatility level, a regime filter excludes foreca
 1 standard deviation above its 252-day mean, improving the directional 
 hit rate (contango vs backwardation) from 86.5% to **90.7%**. 
 
-
+The scatter plot confirms this: low vol regimes (green) cluster tightly around the diagonal, while high vol regimes (red) show more dispersion.
 
 </td>
 <td width="50%">
@@ -85,7 +85,7 @@ hit rate (contango vs backwardation) from 86.5% to **90.7%**.
 </tr>
 </table>
 
-The scatter plot confirms this: low vol regimes (green) cluster tightly around the diagonal, while high vol regimes (red) show more dispersion.
+
 
 ## VIX Strategy
 Data:
