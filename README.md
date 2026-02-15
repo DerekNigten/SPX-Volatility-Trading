@@ -63,12 +63,14 @@ before applying AR(1). The forecast is projected back to
 log-variance space using the loadings $B$, from which the 
 slope is reconstructed.
 
-### Important Results
+### Key Results
 All three principal components are stationary (ADF p-value = 0.000), 
 confirming AR(1) is appropriate. The 5-day ahead slope forecast achieves 
 a correlation of **0.652** with the realized slope. Applying the PC1 regime 
 filter improves the hit rate from 86.5% to **90.7%**, confirming that 
 filtering out high-stress regimes meaningfully improves forecast reliability.
+
+![Slope forecast vs realized](images/slope_forecast_scatter.png)
 
 
 
