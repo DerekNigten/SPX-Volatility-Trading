@@ -64,16 +64,28 @@ log-variance space using the loadings $B$, from which the
 slope is reconstructed.
 
 ### Key Results
+<table>
+<tr>
+<td width="50%">
+
 All three principal components are stationary (ADF p-value = 0.000), 
 confirming AR(1) is appropriate. The 5-day ahead slope forecast achieves 
-a correlation of **0.652** with the realized slope. Applying the PC1 regime 
-filter improves the hit rate from 86.5% to **90.7%**, confirming that 
-filtering out high-stress regimes meaningfully improves forecast reliability.
+a correlation of **0.652** with the realized slope. 
 
-![Slope forecast vs realized](images/slope_forecast_scatter.png)
+Since PC1 captures the overall volatility level, a regime filter excludes forecasts when PC1 exceeds 
+1 standard deviation above its 252-day mean, improving the directional 
+hit rate (contango vs backwardation) from 86.5% to **90.7%**. 
 
 
 
+</td>
+<td width="50%">
+<img src="images/SlopeForecast.jpeg" width="400"/>
+</td>
+</tr>
+</table>
+
+The scatter plot confirms this: low vol regimes (green) cluster tightly around the diagonal, while high vol regimes (red) show more dispersion.
 
 ## VIX Strategy
 Data:
