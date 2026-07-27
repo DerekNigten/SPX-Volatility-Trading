@@ -233,6 +233,8 @@ The codebase includes full Greeks attribution (vega, theta, gamma, delta), perfo
 | Derek Nigten | Econometrics & Data Science | VU University Amsterdam |
 | Alessandro Plett | Quantitative Finance & Risk Management | Università Bocconi |
 
+![Team Photo](images/
+
 ---
 
 *Built with Python — NumPy · pandas · scikit-learn · statsmodels · SciPy · matplotlib*
